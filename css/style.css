@@ -78,7 +78,10 @@ html {
 }
 
 section .gambar {
-  border-radius: 10px;
+  max-width: 100%; /* Maksimum lebar gambar tidak akan melebihi lebar kontainer */
+  max-height: 400px; /* Tinggi maksimal gambar */
+  height: auto; /* Tinggi gambar akan menyesuaikan */
+  width: auto; /* Lebar gambar akan menyesuaikan */
 }
 
 section .ucapan {
